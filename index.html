@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="public/style.css">
+
+    <!-- TITLE -->
+    <title>Calculadora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="display">
+            <input id="display" name="display" placeholder="0" disabled value="">
+            <h2 id="titulo">Calculadora</h2>
+        </div>
+        <div class="row top">
+            <input class="button gray divisao" value="&#247;" name="divisao" type="button">
+        </div>
+
+        <div class="row">
+            <input class="button" value="7" id="number7" type="button" onclick="apertarBotao()">
+            <input class="button" value="8" id="number8" type="button" onclick="apertarBotao()">
+            <input class="button" value="9" id="number9" type="button" onclick="apertarBotao()">
+            <input class="button gray" value="x" id="mult" type="button" onclick="">
+        </div>
+
+        <div class="row">
+            <input class="button" value="4" id="number4" type="button">
+            <input class="button" value="5" id="number5" type="button">
+            <input class="button" value="6" id="number6" type="button">
+            <input class="button gray" value="-" id="subtracao" type="button">
+        </div>
+
+        <div class="row">
+            <input class="button" value="1" id="number1" type="button" onclick="apertarBotao()">
+            <input class="button" value="2" id="number2" type="button" onclick="apertarBotao()">
+            <input class="button" value="3" id="number3" type="button" onclick="apertarBotao()">
+            <input class="button gray" value="+" id="soma" type="button">
+        </div>
+
+        <div class="row">
+            <input class="button" value="0" id="number0" type="button">
+            <input class="button" value="." id="ponto" type="button">
+            <input class="button" value="=" id="igual" type="button">
+            <input class="button limpar" value="clear" id="limpar" type="button">
+        </div>
+    </div>
+
+
+<script src="public/main.js"></script>
+</body>
+
+</html>
